@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+#container{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+#form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #cbd6cb;
+    padding: 40px;
+    box-shadow: 0px 0px 10px 10px #888888;
+}
+
+p{
+    font-size: 0.8rem;   
+}
+
+input{
+   
+    width: 270px;
+    height: 25px;
+    padding-left: 5px;
+    border: none; 
+}
+
+button{
+   width: 310px;
+   height: 30px;
+   margin-top: 30px;
+   border: none;
+   border-radius: 2px;
+   background-color: blueviolet;
+   color: white;
+   cursor: pointer;
+}
+
+#close{
+    width: 50px;
+    margin-top: 100px;
+}
+
+h2{
+    margin-top: 0px;
+}
+
+.pop{
+    width: 320px;
+    height: 180px;
+    text-align: center;
+    border: 2px solid #cbd6cb;
+    padding: 80px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    transition: 1s;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.overlay{
+    top: 50%;
+    z-index: 5;
+}
+
+.icb,select{
+    border: 2px solid #cbd6cb;
+    height: 26px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding-right: 5px;   
+}
+
+.question{
+    border: 2px solid #cbd6cb;
+    border-radius: 50%;
+    font-size: 8px; 
+    margin-right: 5px;
+}
+
+.red{
+    border: 2px solid #cbd6cb;
+    border-radius: 50%;
+    font-size: 11px; 
+}
+
+input:focus{
+    outline: none !important;
+}
+
+select:focus{
+    outline: none !important;
+}
+
